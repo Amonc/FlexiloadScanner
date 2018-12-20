@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flexiload Scanner</string>
+    <string name="airtel">Airtel</string>
+    <string name="teletalk">Teletalk</string>
+    <string name="robi">Robi</string>
+    <string name="bl">Banglalink</string>
+    <string name="gp">Grameenphone</string>
+    <string name="select_operator">Select your operator</string>
+</resources>

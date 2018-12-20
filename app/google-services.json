@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1049586681610",
+    "firebase_url": "https://flexiloadscanner.firebaseio.com",
+    "project_id": "flexiloadscanner",
+    "storage_bucket": "flexiloadscanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049586681610:android:48269eb815e475c7",
+        "android_client_info": {
+          "package_name": "com.aerobola.apps.flexiloadscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049586681610-s87vd44h9im3ek0fabpv4lo3snpmfmqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aerobola.apps.flexiloadscanner",
+            "certificate_hash": "da16c4fdcd94a1b7c8c06f69c358581c762138e1"
+          }
+        },
+        {
+          "client_id": "1049586681610-4otpfat5l9si61rncranvmhl0ensre2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxDeBdcelyJ6Gx4PciOhE-q9cQcZ3EIpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049586681610-4otpfat5l9si61rncranvmhl0ensre2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="30dp"
+    tools:context=".MainActivity">
+
+
+<ImageButton
+    android:id="@+id/imageButton"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:padding="100dp"
+    android:layout_height="300dp"
+    android:src="@drawable/camera"
+
+
+
+    />
+    <ImageView
+        android:id="@+id/imsgeView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/imageButton"
+
+        />
+
+
+    <com.github.pinball83.maskededittext.MaskedEditText
+        android:id="@+id/EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        app:mask="**** **** **** ****"
+        app:notMaskedSymbol="*"
+        android:textSize="26sp"
+        android:hint="16 digit code"
+        android:maxLength="19"
+        android:inputType="number"
+        android:layout_below="@+id/imsgeView"
+        />
+    <Button
+        android:id="@+id/recharge_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText"
+        android:layout_centerHorizontal="true"
+        android:text="RECHARGE"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
